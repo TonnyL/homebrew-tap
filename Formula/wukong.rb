@@ -1,16 +1,16 @@
 class Wukong < Formula
   desc "A command-line tool for browsing GitHub trending repositories and developers written by Go."
   homepage "https://github.com/TonnyL/Wukong/"
-  version "v0.1.0-alpha01"
+  version "v0.1.0-alpha02"
 
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/TonnyL/Wukong/releases/download/v0.1.0-alpha01/wukong-macos.tar.gz"
-    sha256 "2f508abe6606d5079c0ee54c9a00c12bcf4745537fe7cb4b3997b1172612a5f8"
+    url "https://github.com/TonnyL/Wukong/releases/download/v0.1.0-alpha02/wukong-macos.tar.gz"
+    sha256 "446d2cd7f185778b020ae55f721c7b2edb4bf4b919706733ab8f3d3d9188e523"
   elsif OS.linux?
-    url "https://github.com/TonnyL/Wukong/releases/download/v0.1.0-alpha01/wukong-linux.tar.gz"
-    sha256 "1469a99e8262a4c48fd2eb7543a7ff1bc2f9363519f66dec1566cfc34a7f5e6e"
+    url "https://github.com/TonnyL/Wukong/releases/download/v0.1.0-alpha02/wukong-linux.tar.gz"
+    sha256 "cc4df15ab5e3cf757ae9aa79c2d9d6793947cf4a27cc219ca6c1c6f0c9d6c2b9"
   end
 
   def install
